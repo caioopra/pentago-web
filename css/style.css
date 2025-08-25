@@ -40,7 +40,7 @@ header a:hover {
     color: #77aaff;
 }
 
-p, li {
+aside {
     text-align: justify;
 }
 
@@ -68,6 +68,10 @@ main h2 {
     color: #333;
     border-bottom: 2px solid #77aaff;
     padding-bottom: 10px;
+}
+
+main p {
+    text-align: justify;
 }
 
 aside {
