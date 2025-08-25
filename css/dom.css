@@ -1,0 +1,10 @@
+.dom-tree {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #ccc;
+}
+pre {
+    white-space: pre-wrap;
+}

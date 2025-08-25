@@ -40,6 +40,10 @@ header a:hover {
     color: #77aaff;
 }
 
+p, li {
+    text-align: justify;
+}
+
 .container {
     width: 80%;
     margin: auto;

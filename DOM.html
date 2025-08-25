@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Estrutura DOM - Pentago</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/dom.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Estrutura DOM da Página Principal</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Voltar para a Home</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+            <main style="flex: 1; padding-right: 0">
+                <section>
+                    <h2>Árvore do Document Object Model (DOM)</h2>
+                    <p>
+                        Abaixo está uma representação simplificada da hierarquia
+                        de elementos (árvore DOM) da nossa página
+                        <code>index.html</code>.
+                    </p>
+                    <div class="dom-tree">
+                        <pre>
+html
+|-- head
+|   |-- meta (charset)
+|   |-- meta (viewport)
+|   |-- title
+|   |-- link (favicon)
+|   |-- link (stylesheet)
+|
+|-- body
+    |-- header
+    |   |-- h1
+    |   |-- nav
+    |       |-- ul
+    |           |-- li -> a
+    |           |-- li -> a
+    |           |-- li -> a
+    |           |-- li -> a
+    |
+    |-- div (class="container")
+    |   |-- aside
+    |   |   |-- h2
+    |   |   |-- h3
+    |   |   |-- ul -> li, li, ...
+    |   |   |-- h3
+    |   |   |-- p -> a
+    |   |   |-- h3
+    |   |   |-- p
+    |   |   |-- h3
+    |   |   |-- ul -> li, li
+    |   |   |-- h3
+    |   |   |-- a
+    |   |
+    |   |-- main
+    |       |-- section (id="sobre")
+    |       |   |-- h2
+    |       |   |-- p
+    |       |   |-- p
+    |       |
+    |       |-- section (id="objetivos")
+    |       |   |-- h2
+    |       |   |-- p
+    |       |   |-- ul -> li, li, ...
+    |       |
+    |       |-- section (id="disciplina")
+    |           |-- h2
+    |           |-- p -> strong
+    |
+    |-- footer
+        |-- address
+        |   |-- p
+        |   |-- p -> a
+        |-- p
+</pre
+                        >
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
