@@ -32,53 +32,106 @@ html
 |   |-- meta (charset)
 |   |-- meta (viewport)
 |   |-- title
-|   |-- link (favicon)
+|   |   |-- "Pentago - O Jogo"
 |   |-- link (stylesheet)
+|   |-- link (favicon)
 |
 |-- body
     |-- header
     |   |-- h1
+    |   |   |-- "Pentago"
     |   |-- nav
     |       |-- ul
-    |           |-- li -> a
-    |           |-- li -> a
-    |           |-- li -> a
-    |           |-- li -> a
+    |           |-- li
+    |           |   |-- a (href="#sobre")
+    |           |   |   |-- "Sobre o Jogo"
+    |           |-- li
+    |           |   |-- a (href="#objetivos")
+    |           |   |   |-- "Objetivos"
+    |           |-- li
+    |           |   |-- a (href="#disciplina")
+    |           |   |   |-- "Disciplina"
+    |           |-- li
+    |               |-- a (href="DOM.html")
+    |                   |-- "Árvore DOM"
     |
     |-- div (class="container")
     |   |-- aside
     |   |   |-- h2
+    |   |   |   |-- "Informações do Projeto"
     |   |   |-- h3
-    |   |   |-- ul -> li, li, ...
-    |   |   |-- h3
-    |   |   |-- p -> a
-    |   |   |-- h3
+    |   |   |   |-- ul
+    |   |   |       |-- li
+    |   |   |       |   |-- "Caio Prá Silva"
+    |   |   |       |-- li
+    |   |   |           |-- "Pedro Nack Martins"
     |   |   |-- p
+    |   |   |   |-- a (href="https://cco.ufsc.br", target="_blank")
+    |   |   |       |-- "Ciência da Computação"
     |   |   |-- h3
-    |   |   |-- ul -> li, li
+    |   |   |   |-- "Descrição"
+    |   |   |-- p
+    |   |   |   |-- "Este projeto é uma landing page para o jogo de tabuleiro Pentago..."
     |   |   |-- h3
-    |   |   |-- a
+    |   |   |   |-- "Recursos Utilizados"
+    |   |   |-- ul
+    |   |   |   |-- li
+    |   |   |   |   |-- "HTML5"
+    |   |   |   |-- li
+    |   |   |       |-- "CSS3"
+    |   |   |-- h3
+    |   |   |   |-- "Repositório"
+    |   |   |-- a (href="https://github.com/caioopra/pentago-web", target="_blank")
+    |   |       |-- "GitHub do Projeto"
     |   |
     |   |-- main
     |       |-- section (id="sobre")
     |       |   |-- h2
+    |       |   |   |-- "Sobre o Projeto e o Jogo"
     |       |   |-- p
+    |       |   |   |-- "Pentago é um jogo de tabuleiro abstrato..."
     |       |   |-- p
+    |       |       |-- "Nossa proposta é criar uma versão digital..."
     |       |
     |       |-- section (id="objetivos")
     |       |   |-- h2
+    |       |   |   |-- "Objetivos do Projeto"
     |       |   |-- p
-    |       |   |-- ul -> li, li, ...
+    |       |   |   |-- "Os principais objetivos deste trabalho são:"
+    |       |   |-- ul
+    |       |       |-- li
+    |       |       |   |-- "Aplicar os conceitos de HTML semântico..."
+    |       |       |-- li
+    |       |       |   |-- "Utilizar CSS para estilizar..."
+    |       |       |-- li
+    |       |       |   |-- "Aprofundar o conhecimento sobre a manipulação do DOM..."
+    |       |       |-- li
+    |       |       |   |-- "Desenvolver a lógica de programação necessária..."
+    |       |       |-- li
+    |       |           |-- "Trabalhar em equipe utilizando Git e GitHub..."
     |       |
     |       |-- section (id="disciplina")
     |           |-- h2
-    |           |-- p -> strong
+    |           |   |-- "A Disciplina"
+    |           |-- p
+    |               |-- "Este projeto está sendo desenvolvido no contexto da disciplina de "
+    |               |-- strong
+    |               |   |-- "Programação Web"
+    |               |-- ". O foco inicial é a construção da estrutura da página (HTML)..."
     |
     |-- footer
         |-- address
         |   |-- p
-        |   |-- p -> a
+        |   |   |-- "Desenvolvido por Caio Prá e Pedro Nack"
+        |   |-- p
+        |       |-- "Contatos: "
+        |       |-- a (href="mailto:caio.pra@grad.ufsc.br") 
+        |       |   |-- "caio.pra@grad.ufsc.br"
+        |       |-- a (href="mailto:pedro.nack@grad.ufsc.br")
+        |           |-- "pedro.nack@grad.ufsc.br"
         |-- p
+            |-- "2025 - Todos os direitos reservados."
+
 </pre
                         >
                     </div>
